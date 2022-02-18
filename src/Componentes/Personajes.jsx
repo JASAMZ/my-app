@@ -14,7 +14,7 @@ function Personajes(props)
         //Petición
         async function request() {
 
-//            const res = await axios.get("https://rickandmortyapi.com/api/character/?page=");
+        // const res = await axios.get("https://rickandmortyapi.com/api/character/?page=");
             const res = await axios.get(`https://rickandmortyapi.com/api/character/?page=${pagina}`);
 
             console.log(res.data.results);
@@ -52,3 +52,5 @@ function Personajes(props)
 }
 
 export default Personajes;
+
+//Commit 3
